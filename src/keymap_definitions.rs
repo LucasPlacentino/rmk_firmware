@@ -14,7 +14,7 @@ enum KEY {
 type KEYMAP = [[[Option<KEY>; COL_SIZE]; ROW_SIZE]; LAYER_COUNT];
 
 // Macro to wrap the keys with Some()
-macro_rules! k {
+macro_rules! key {
     ($key:ident) => {
         Some(KEY::$key)
     };
