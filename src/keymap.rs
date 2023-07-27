@@ -15,21 +15,21 @@ const LAYER_COUNT: usize = 3;
 const KEYMAP_LAYOUT: KEYMAP = [
     // Layer 0
     [
-        [k!(A), k!(B), None, k!(A), k!(B), k!(C), k!(A), k!(B)],
-        [k!(B), k!(C), k!(A), k!(B), k!(C), k!(A), k!(B), k!(C)],
-        [k!(C), k!(A), k!(B), k!(C), k!(A), k!(B), k!(C), None],
+        [key!(A), key!(B), key!(C), key!(A), key!(B), key!(C), key!(A), key!(B)],
+        [key!(B), key!(C), key!(A), key!(B), key!(C), key!(A), key!(B), key!(C)],
+        [key!(C), key!(A), key!(B), key!(C), key!(A), key!(B), key!(C), None],
     ],
     // Layer 1
     [
-        [k!(A), k!(B), k!(C), k!(A), k!(B), k!(C), k!(A), k!(B)],
-        [k!(B), k!(C), k!(A), k!(B), k!(C), k!(A), k!(B), k!(C)],
-        [k!(C), k!(A), k!(B), k!(C), k!(A), k!(B), None, None],
+        [key!(A), key!(B), key!(C), key!(A), key!(B), key!(C), key!(A), key!(B)],
+        [key!(B), key!(C), key!(A), key!(B), key!(C), key!(A), key!(B), key!(C)],
+        [key!(C), key!(A), key!(B), key!(C), key!(A), key!(B), None, None],
     ],
     // Layer 2
     [
-        [k!(A), k!(B), k!(C), k!(A), k!(B), k!(C), k!(A), k!(B)],
-        [k!(B), k!(C), k!(A), k!(B), k!(C), k!(A), k!(B), k!(C)],
-        [None, k!(A), k!(B), k!(C), k!(A), k!(B), k!(C), k!(A)],
+        [key!(A), key!(B), key!(C), key!(A), key!(B), key!(C), key!(A), key!(B)],
+        [key!(B), key!(C), key!(A), key!(B), key!(C), key!(A), key!(B), key!(C)],
+        [key!(C), key!(A), key!(B), key!(C), key!(A), key!(B), key!(C), key!(A)],
     ],
 ];
 
