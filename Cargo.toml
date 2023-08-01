@@ -67,6 +67,9 @@ usbd-hid = "0.5.0"
 # prefer to use only embedded-hal? ot use any MCU
 
 
+[build-dependencies]
+serde_json = "1.0"
+
 
 [dev-dependencies]
 color-eyre = "0.6.2" # colored error messages
