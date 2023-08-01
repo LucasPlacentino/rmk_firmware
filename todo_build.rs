@@ -1,6 +1,8 @@
 // RMK firmware build script
 // MIT License
 
+// This build.rs script creates the KEYMAP type instance from a user or RGC-created keymap.json file
+
 use std::fs::File;
 use std::io::Read;
 use serde_json::{Value, from_str};
