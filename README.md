@@ -63,7 +63,10 @@ Or use **[RMK GUI Configurator (RGC)](https://github.com/ObsiLab/RGC)** (_WIP_).
 ## 🌟 Acknowledgements
 #### 💡 Inspired by [**QMK**](https://github.com/qmk/qmk_firmware) and [**KMK**](https://github.com/KMKfw/kmk_firmware).
 
+#### (_Uses ?_) [KeyToKey (K2K)](https://github.com/TyberiusPrime/KeyToKey) Rust keyboard library
+
 #### 🧱 Based off of:
+- https://github.com/TyberiusPrime/KeyToKey
 - https://github.com/Innectic/rmk
 - https://github.com/rp-rs/rp-hal
 - https://github.com/dlkj/usbd-human-interface-device
